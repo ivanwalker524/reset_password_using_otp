@@ -1,0 +1,15 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    background-color: #02022b;
+}
+.mx-wd{
+    max-width: 700px;
+}
+.auto{
+    margin: 0 auto;
+}

@@ -1,0 +1,62 @@
+.container-form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 10%;
+}
+form {
+	width: 500px;
+	background-color: #ffffff;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 0 20px #00001a;
+}
+.form_header {
+	margin-bottom: 20px;
+	text-align: center;
+}
+.input_controller {
+	width: 100%;
+}
+.input_controller input {
+	width: 100%;
+	padding: 8px 4px;
+	border-radius: 5px;
+	border: 1px solid #6793ba;
+	background-color: aliceblue;
+	margin: 5px 0;
+}
+.input_controller input:focus {
+	outline: none;
+}
+.btn {
+	background:#01dde1 !important;
+	font-size: 18px;
+	color: #333;
+	border: none;
+}
+.select{
+	width: 100%;
+	text-align: center;
+}
+.select > p{
+	font-size: 18px;
+	padding: 5px 0;
+}
+.select p a{
+	text-decoration: none;
+	color: #333;
+	font-weight: bolder;
+}
+.select p a:hover{
+	color: #00001a;
+}
+
+@media screen and (max-width: 530px) {
+	.container-form {
+		padding: 0 10px;
+	}
+	.container-form form {
+		width: 100%;
+	}
+}

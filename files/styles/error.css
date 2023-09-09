@@ -1,0 +1,23 @@
+.errors{
+    background-color: #ff9494;
+    padding: 8px 4px;
+    margin-bottom: 4px;
+    text-align: center;
+    display: none;
+    border-radius: 8px;
+    
+}
+.errors p{
+    color: #333;
+    font-size: 17px;
+    font-weight: bolder;
+}
+.show{
+    display: flex;
+}
+.alert{
+    color: green;
+    font-weight: bold;
+    font-size: 17px;
+
+}
